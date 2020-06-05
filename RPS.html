@@ -9,12 +9,12 @@
 <div id="all" class="conteiner">
     <section id="game-zone" class="container">
         <figure>
-            <figcaption id="playerChoice">You</figcaption>
-            <img src="rock.png" alt="Your choice">
+            <figcaption>You</figcaption>
+            <img id="playerChoice"src="rock.png" alt="Your choice">
         </figure>
         <figure>
-            <figcaption id="computerChoice">PC</figcaption>
-            <img src="rock.png" alt="Computer choice">
+            <figcaption>PC</figcaption>
+            <img id="computerChoice"src="rock.png" alt="Computer choice">
         </figure>
     </section>
 
@@ -29,13 +29,13 @@
     </section>
     <section id="options" class="container">
         <p>Choose an option</p>
-        <button data-choice="rock">
+        <button data-choice="rock"onclick="chooseOne('rock')">
             <img src="rock.png" alt="PLay Rock">
         </button>
-        <button data-choice="paper">
+        <button  data-choice="paper"onclick="chooseOne('paper')">
             <img src="paper.png" alt="PLay Paper">
         </button>
-        <button data-choice="scissors">
+        <button data-choice="scissors" onclick="chooseOne('scissors')">
             <img src="scissors.png" alt="Play Scissors">
         </button>
     </section>
