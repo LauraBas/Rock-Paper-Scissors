@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#all {
+    display: grid;
+    justify-content: center;
+    background-color: darkslateblue;
+    width: 450px;
+    box-shadow: #888888 8px 9px;
+    padding: 8px;
+}
+
+#game-zone {
+    display: flex;
+    justify-content: center;
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+#resultados {
+    background-color: lightseagreen;
+    text-align: center;
+    font-size: 1.1em;
+    font-family: monospace;
+}
+
+#options {
+    background-color: darkkhaki;
+    text-align: center;
+    font-size: 17px;
+    font-family: monospace;
+    font-weight: bold;
+
+}
+
+#chau {
+    font-family: cursive;
+    position: absolute;
+    bottom: 320px;
+    width: 15%;
+    left: 46%;
+}
