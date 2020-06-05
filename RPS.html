@@ -10,11 +10,11 @@
     <section id="game-zone" class="container">
         <figure>
             <figcaption>You</figcaption>
-            <img id="playerChoice"src="rock.png" alt="Your choice">
+            <img id="playerChoice" src="rock.png" alt="Your choice">
         </figure>
         <figure>
             <figcaption>PC</figcaption>
-            <img id="computerChoice"src="rock.png" alt="Computer choice">
+            <img id="computerChoice" src="rock.png" alt="Computer choice">
         </figure>
     </section>
 
@@ -24,18 +24,18 @@
         </p>
         <p id="score">
             You won <strong>0</strong> times.
-            You loose <strong>0</strong> times.
+            You lose <strong>0</strong> times.
         </p>
     </section>
     <section id="options" class="container">
         <p>Choose an option</p>
-        <button data-choice="rock"onclick="chooseOne('rock')">
+        <button onclick="startGame('rock')">
             <img src="rock.png" alt="PLay Rock">
         </button>
-        <button  data-choice="paper"onclick="chooseOne('paper')">
+        <button onclick="startGame('paper')">
             <img src="paper.png" alt="PLay Paper">
         </button>
-        <button data-choice="scissors" onclick="chooseOne('scissors')">
+        <button onclick="startGame('scissors')">
             <img src="scissors.png" alt="Play Scissors">
         </button>
     </section>
