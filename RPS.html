@@ -4,14 +4,42 @@
     <meta charset="UTF-8">
     <title>Rock Paper Scissors</title>
 </head>
+<link rel="stylesheet" href="rock.css">
 <body>
 <div id="all" class="conteiner">
-    <div id="game-zone" class="container">
+    <section id="game-zone" class="container">
+        <figure>
+            <figcaption id="playerChoice">You</figcaption>
+            <img src="rock.png" alt="Your choice">
+        </figure>
+        <figure>
+            <figcaption id="computerChoice">PC</figcaption>
+            <img src="rock.png" alt="Computer choice">
+        </figure>
+    </section>
 
-
-
-    </div>
+    <section id="resultados" class="conteiner">
+        <p id="result">
+            You tied choosing <strong>rock</strong> against <strong>rock</strong>.
+        </p>
+        <p id="score">
+            You won <strong>0</strong> times.
+            You loose <strong>0</strong> times.
+        </p>
+    </section>
+    <section id="options" class="container">
+        <p>Choose an option</p>
+        <button data-choice="rock">
+            <img src="rock.png"alt="PLay Rock">
+        </button>
+        <button data-choice="paper">
+            <img src="paper.png" alt="PLay Paper">
+        </button>
+        <button data-choice="scissors">
+            <img src="scissors.png" alt="Play Scissors">
+        </button>
+    </section>
 </div>
-
+<script rel="script" src="paper.js"></script>
 </body>
 </html>
